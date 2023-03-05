@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    background-color: rgb(206, 219, 232);
+    width:250px;
+    height:70px;
+    padding: 15px;
+    margin:20px;
+    border-radius: 4px;
+}
+input[type="text"]{
+    padding: 7px;
+    border-radius: 10px;
+}
+.submitBtn{
+    padding: 5px;
+    background-color: rgb(244, 146, 146);
+    color: black;
+}
+.randombtn{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(187, 173, 173);
+    border-radius: 5px;
+    align-items: center;
+}
+.asteroid-details{
+    background-color: rgb(206, 219, 232);
+    width: 450px;
+    height: 130px;
+    position: relative;
+    left:38%;
+    padding: 10px;
+  border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.asteroid-details:hover{
+    background-color: rgb(84, 139, 139);
+}
+.url{
+    color: rgb(90, 90, 225);
+}
+h2{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
