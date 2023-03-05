@@ -18,6 +18,7 @@ describe("AsteroidInput", () => {
     expect(form.length).toBe(1);
     const input = wrapper.find("[data-testid='input']");
     expect(input.length).toBe(1);
+    
     const submit = wrapper.find("[data-testid='submit']");
     expect(submit.length).toBe(1);
   });
