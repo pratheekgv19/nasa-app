@@ -101,9 +101,6 @@ it("should show a random asteroid details after clicking the button", async () =
 
 
 
-
-
-
 // describe('displays Asteroid info after submitting the button', () => {
 //   let fetchMock: jest.SpyInstance;
 
