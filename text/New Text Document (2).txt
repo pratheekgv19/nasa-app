@@ -10,7 +10,6 @@ interface AsteroidInputProps {
   }[];
 }
 
-
  const AsteroidInput: React.FC<AsteroidInputProps>= (props:AsteroidInputProps) => {
 
   const [inputValue, setInputValue] = useState<string>("");
@@ -59,7 +58,7 @@ interface AsteroidInputProps {
           </button>
 
         </form>
-        <button className="randombtn" data-testid="random" onClick={handleRandomAsteroid}>Random Asteroid</button>
+        <button className="randombtn" onClick={handleRandomAsteroid}>Random Asteroid</button>
       </div>
 
       <div>

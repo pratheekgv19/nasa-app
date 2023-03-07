@@ -4,6 +4,10 @@ transform: {
 
 '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
 },
-testMatch: ['**/*.test.(js|jsx|ts|tsx)'],
+testMatch: [
+    "**/*.steps.ts"
+  ],
+// testMatch: ['**/*.test.(js|jsx|ts|tsx)'],
 testEnvironment: 'jsdom',
+
 };
