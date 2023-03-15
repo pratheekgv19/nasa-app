@@ -1,13 +1,12 @@
+
 module.exports = {
-moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx',],
-transform: {
-
-'^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
-},
-testMatch: [
-    "**/*.steps.ts"
-  ],
-// testMatch: ['**/*.test.(js|jsx|ts|tsx)'],
-testEnvironment: 'jsdom',
-
+  transform: {
+    '^.+\\.ts?$': 'ts-jest',
+  },
+  testEnvironment: 'node',
+  testRegex: './src/.*\\.(steps)?\\.(ts|tsx)$',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  roots: ['<rootDir>/src'],
 };
+
+
